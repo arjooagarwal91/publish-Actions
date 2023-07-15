@@ -31,5 +31,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: ghcr.io/arjooagarwal91/publish-packages/game:1.0
            
